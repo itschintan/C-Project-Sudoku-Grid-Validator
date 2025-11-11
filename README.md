@@ -25,7 +25,6 @@ C Programming Concepts
  Input/Output (scanf, printf)
 
  LOGICAL & MATHEMATICAL :
-Matrix traversal  
 Duplicate checking using small frequency array used[10] 
 Sudoku rule validation logic  
 
