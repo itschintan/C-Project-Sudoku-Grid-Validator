@@ -35,12 +35,13 @@ Sudoku rule validation logic
    check_rows(grid)
    check_columns(grid)
    check_subgrids(grid)
-3. Each function returns 1 if that part of Sudoku is valid, otherwise 0.  
+3. Each function returns 1 if that part of Sudoku is valid , otherwise 0.  
 4. The main function combines all results and prints the final output.
 
 # HOW TO COMPILE
 Use the following GCC command in your terminal or VS Code
-gcc sudkougridvalid.c
+        "  gcc sudkougridvalid.c  "
 # How to run 
-use ./a
+use the follwing command after compiling
+    "  use ./a  "
 
