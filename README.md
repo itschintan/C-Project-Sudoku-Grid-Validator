@@ -1,10 +1,10 @@
 # COC Project-Sudoku Grid Validator
 Sudoku grid Validator project for clash of coders 3.0 
 Author : CHINTAN LABANA
-date  : 11-11-2025
+date   : 11-11-2025
 project : sudoku grid validator in c language
 This is my C language project for Clash of Coders 3 event 
-The project checks whether a given 9x9 Sudoku grid follows Sudoku rules or not.
+The project checks whether a given 9x9 Sudoku grid follows Sudoku rules or not
 
 The program validates:
 Every row must have numbers 1 to 9 without any repetition.  
