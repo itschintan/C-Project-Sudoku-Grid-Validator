@@ -1,5 +1,9 @@
+// Author: CHINTAN LABANA
+// Project: Sudoku Grid Validator Clash of Coders 3.0
+
 #include <stdio.h>
 
+/* Function prototypes */
 int check_rows(int (*grid)[9]) {
     int used[10];
     for (int r = 0; r < 9; ++r) {
@@ -14,12 +18,14 @@ int check_rows(int (*grid)[9]) {
     return 1;
 }
 
+/* Check each row: return 1 if all rows valid, else 0 */
 int check_columns(int (*grid)[9]) {
     int used[10];
     for (int c = 0; c < 9; ++c) {
         for (int i = 1; i <= 9; ++i) used[i] = 0;
         for (int r = 0; r < 9; ++r) {
             int v = grid[r][c];
+            /* If any value outside 1 to 9 found, treat as invalid */
             if (v < 1 || v > 9) return 0; // invalid number
             if (used[v]) return 0;       // duplicate in column
             used[v] = 1;
@@ -37,7 +43,7 @@ int check_subgrids(int (*grid)[9]) {
             for (int r = boxR * 3; r < boxR * 3 + 3; ++r) {
                 for (int c = boxC * 3; c < boxC * 3 + 3; ++c) {
                     int v = grid[r][c];
-                    if (v < 1 || v > 9) return 0; // invalid number
+                    if (v < 1 || v > 9) return 0; // invalid no
                     if (used[v]) return 0;       // duplicate in box
                     used[v] = 1;
                 }
@@ -88,3 +94,4 @@ int main() {
 
     return 0;
 }
+
