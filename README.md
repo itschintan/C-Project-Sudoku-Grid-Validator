@@ -1,4 +1,4 @@
-# C-Project-Sudoku-Grid-Validator
+# COC Project-Sudoku Grid Validator
 Sudoku grid Validator project for clash of coders 3.0 
 Author : CHINTAN LABANA
 date  : 11-11-2025
