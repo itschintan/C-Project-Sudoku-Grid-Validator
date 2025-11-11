@@ -44,4 +44,5 @@ Use the following GCC command in your terminal or VS Code
 # How to run 
 use the follwing command after compiling
     "  use ./a  "
+    DONE
 
