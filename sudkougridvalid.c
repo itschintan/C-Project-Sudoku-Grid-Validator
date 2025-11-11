@@ -65,7 +65,7 @@ void print_grid(int (*grid)[9]) {
 }
 
 int main() {
-    // Example: a known valid completed Sudoku (you can replace this)
+    // Example: a known valid completed Sudok (you can replace this)
     int grid[9][9] = {
         {5,3,4,6,7,8,9,1,2},
         {6,7,2,1,9,5,3,4,8},
@@ -94,4 +94,5 @@ int main() {
 
     return 0;
 }
+
 
