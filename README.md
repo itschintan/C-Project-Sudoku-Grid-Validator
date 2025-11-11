@@ -16,17 +16,17 @@ otherwise prints "INVALID SOLUTION"
 
 # CONCEPTS USED
 C Programming Concepts
- 2D Array (`int grid[9][9]`)
- Nested `for` loops
- User-defined functions (`check_rows()`, `check_columns()`, `check_subgrids()`)
+ 2D Array (int grid[9][9])
+ Nested 'for' loops
+ User-defined functions (check_rows(), check_columns(), check_subgrids() )
  Function calling and return values
- Conditional statements (`if`, `else`)
+ Conditional statements (if, else)
  Passing arrays to functions using pointers
- Input/Output (`scanf`, `printf`)
+ Input/Output (scanf, printf)
 
  LOGICAL & MATHEMATICAL :
 Matrix traversal  
-Duplicate checking using small frequency array `used[10]`  
+Duplicate checking using small frequency array used[10] 
 Sudoku rule validation logic  
 
 #HOW IT WORKS :
